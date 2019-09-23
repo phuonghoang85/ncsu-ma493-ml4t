@@ -78,14 +78,14 @@ def test_code():
         gen_plot = False) 			  		 			     			  	   		   	  			  	
  			  		 			     			  	   		   	  			  	
     # Print statistics 			  		 			     			  	   		   	  			  	
-    print "Start Date:", start_date 			  		 			     			  	   		   	  			  	
-    print "End Date:", end_date 			  		 			     			  	   		   	  			  	
-    print "Symbols:", symbols 			  		 			     			  	   		   	  			  	
-    print "Allocations:", allocations 			  		 			     			  	   		   	  			  	
-    print "Sharpe Ratio:", sr 			  		 			     			  	   		   	  			  	
-    print "Volatility (stdev of daily returns):", sddr 			  		 			     			  	   		   	  			  	
-    print "Average Daily Return:", adr 			  		 			     			  	   		   	  			  	
-    print "Cumulative Return:", cr 			  		 			     			  	   		   	  			  	
+    # print "Start Date:", start_date
+    # print "End Date:", end_date
+    # print "Symbols:", symbols
+    # print "Allocations:", allocations
+    # print "Sharpe Ratio:", sr
+    # print "Volatility (stdev of daily returns):", sddr
+    # print "Average Daily Return:", adr
+    # print "Cumulative Return:", cr
  			  		 			     			  	   		   	  			  	
 if __name__ == "__main__": 			  		 			     			  	   		   	  			  	
     # This code WILL NOT be called by the auto grader 			  		 			     			  	   		   	  			  	
